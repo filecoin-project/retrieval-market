@@ -4,12 +4,14 @@ import Projects, { Project } from "../components/topic/Projects";
 
 const projects: Array<Project> = [];
 
+const topic = "Payment Channels";
+
 export default function PaymentChannels() {
   return (
     <>
-      <Title title="Payment Channels" />
+      <Title title={topic} />
       <About description="🚧 Under Construction 🚧" />
-      <Projects projects={projects} />
+      <Projects projects={projects} topic={topic} />
     </>
   );
 }

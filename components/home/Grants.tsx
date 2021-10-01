@@ -17,7 +17,7 @@ export default function Grants() {
           >
             GitHub repo
           </a>{" "}
-          for this website and create an issue with the label GRANTS.
+          for this website and create an issue with the label "grants".
         </h3>
       </div>
     </div>

@@ -35,10 +35,10 @@ export default function Topics() {
       <div className="flex flex-wrap items-left max-w-4xl mt-6 sm:w-full">
         <h2 className="text-2xl font-bold">Topics</h2>
       </div>
-      <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+      <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
         {topics.map((topic: Topic) => (
           <Link key={topic.name} href={`/${topic.pageName}`}>
-            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 cursor-pointer">
+            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-pl-blue focus:text-blue-600 cursor-pointer">
               <h3 className="text-2xl font-bold">{topic.name} &rarr;</h3>
               <p className="mt-4 text-xl">{topic.description}</p>
             </div>

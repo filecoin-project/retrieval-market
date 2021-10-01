@@ -2,19 +2,16 @@ import Title from "../components/topic/Title";
 import About from "../components/topic/About";
 import Projects, { Project } from "../components/topic/Projects";
 
-const projects: Array<Project> = [
-  {
-    name: "Pando",
-    team: "Ken Labs",
-  },
-];
+const projects: Array<Project> = [];
+
+const topic = "Reputation Systems";
 
 export default function ReputationSystems() {
   return (
     <>
-      <Title title="Reputation Systems" />
+      <Title title={topic} />
       <About description="🚧 Under Construction 🚧" />
-      <Projects projects={projects} />
+      <Projects projects={projects} topic={topic} />
     </>
   );
 }

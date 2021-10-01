@@ -7,6 +7,10 @@ module.exports = {
       backgroundImage: {
         "protocol-labs-logo": "url('/protocol-labs-logo.svg')",
       },
+      colors: {
+        "pl-blue": "#1a74fc",
+        "pl-green": "#4ef286",
+      },
     },
   },
   variants: {

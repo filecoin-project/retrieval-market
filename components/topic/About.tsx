@@ -5,8 +5,9 @@ interface AboutProps {
 export default function About({ description }: AboutProps) {
   return (
     <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-      <div className="flex flex-wrap items-left max-w-4xl mt-6 sm:w-full">
-        <h3 className="text-1xl">{description}</h3>
+      <div className="flex flex-wrap flex-col items-left w-full max-w-4xl sm:w-full">
+        <h3 className="text-2xl text-left">Intro</h3>
+        <h3 className="text-1xl text-left pt-2">{description}</h3>
       </div>
     </div>
   );

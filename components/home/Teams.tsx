@@ -21,7 +21,7 @@ export default function Teams() {
     <div className="flex flex-wrap items-center justify-around border-t-2 max-w-4xl mt-6 sm:w-full">
       <div className="flex flex-wrap items-left max-w-4xl mt-6 sm:w-full">
         <h2 className="text-2xl font-bold">Teams</h2>
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+        <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
           {teams.map((team: Team) => (
             <a
               key={team.name}

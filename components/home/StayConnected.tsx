@@ -23,18 +23,21 @@ export default function StayConnected() {
           <li className="text-1xl text-left pt-2">Submit an idea</li>
           <li className="text-1xl text-left pt-2">Find out about grants</li>
           <li className="text-1xl text-left pt-2">Apply for a grant</li>
+          <li className="text-1xl text-left pt-2">
+            Give feedback on the website
+          </li>
         </ul>
         <h3 className="text-1xl text-left pt-2">
-          Join the{" "}
+          or join the{" "}
           <a
             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
             href="https://filecoinproject.slack.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Filecoin Slack #retrieval-market
+            Filecoin Slack
           </a>{" "}
-          channel
+          #retrieval-market channel.
         </h3>
       </div>
     </div>

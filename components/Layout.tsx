@@ -3,7 +3,7 @@ import Link from "next/link";
 const Layout = ({ children }) => (
   <div className="flex flex-col items-center min-h-screen">
     <Link href="/">
-      <div className="flex w-full p-8 justify-between items-center bg-gradient-to-r from-blue-500 to-green-300 cursor-pointer">
+      <div className="flex w-full p-8 justify-between items-center bg-gradient-to-r from-pl-blue to-pl-green cursor-pointer">
         <h1 className="text-3xl text-white text-center">Retrieval.Market</h1>
         <img
           src="/protocol-labs-logo.svg"
