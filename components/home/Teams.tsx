@@ -27,7 +27,7 @@ export default function Teams() {
             <a
               key={team.name}
               href={team.website || ""}
-              className="p-6 mt-6 text-left border w-96 h-32 rounded-xl hover:text-blue-600 focus:text-blue-600"
+              className="p-6 mt-6 text-left border w-96 h-32 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue"
             >
               <h3 className="text-2xl font-bold">{team.name} &rarr;</h3>
               <h3 className="text-1xl">{team.description}</h3>

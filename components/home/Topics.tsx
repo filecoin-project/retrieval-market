@@ -38,7 +38,7 @@ export default function Topics() {
       <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
         {topics.map((topic: Topic) => (
           <Link key={topic.name} href={`/${topic.pageName}`}>
-            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-pl-blue focus:text-blue-600 cursor-pointer">
+            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue focus:text-blue-600 cursor-pointer">
               <h3 className="text-2xl font-bold">{topic.name}</h3>
               <p className="mt-4 text-xl">{topic.description}</p>
             </div>
