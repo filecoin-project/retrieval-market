@@ -12,7 +12,7 @@ const Layout = ({ children }) => (
         />
       </div>
     </Link>
-    <main className="flex flex-col items-center w-full flex-1 text-center pb-16">
+    <main className="flex flex-col items-center w-full flex-1 text-center pb-16 px-2">
       {children}
     </main>
     <footer className="flex items-center justify-center w-full h-24 bg-gray-100">
