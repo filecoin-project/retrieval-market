@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PanelWrapper from "../PanelWrapper";
 
 interface Topic {
   name: string;
@@ -31,20 +32,21 @@ const topics: Array<Topic> = [
 
 export default function Topics() {
   return (
-    <div className="flex flex-wrap items-center justify-around border-t-2 max-w-4xl mt-6 sm:w-full">
-      <div className="flex flex-wrap items-left max-w-4xl mt-6 sm:w-full">
-        <h2 className="text-2xl font-bold">Topics</h2>
-      </div>
+    <PanelWrapper title="Topics">
+      <h3 className="text-1xl text-left pt-2">
+        To reach the above targets, there are many different topics of research
+        and engineering that need our focus.
+      </h3>
       <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
         {topics.map((topic: Topic) => (
           <Link key={topic.name} href={`/${topic.pageName}`}>
-            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue focus:text-blue-600 cursor-pointer">
+            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue cursor-pointer">
               <h3 className="text-2xl font-bold">{topic.name}</h3>
               <p className="mt-4 text-xl">{topic.description}</p>
             </div>
           </Link>
         ))}
       </div>
-    </div>
+    </PanelWrapper>
   );
 }
