@@ -13,6 +13,7 @@ const teams: Array<Team> = [
   {
     name: "Ken Labs",
     description: "Cloud 2.0 of the Web 3 ecosystem",
+    website: "https://github.com/kenlabs",
   },
 ];
 
@@ -28,7 +29,7 @@ export default function Teams() {
               href={team.website || ""}
               className="p-6 mt-6 text-left border w-96 h-32 rounded-xl hover:text-blue-600 focus:text-blue-600"
             >
-              <h3 className="text-2xl font-bold">{team.name}</h3>
+              <h3 className="text-2xl font-bold">{team.name} &rarr;</h3>
               <h3 className="text-1xl">{team.description}</h3>
             </a>
           ))}
