@@ -39,7 +39,7 @@ export default function Topics() {
         {topics.map((topic: Topic) => (
           <Link key={topic.name} href={`/${topic.pageName}`}>
             <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-pl-blue focus:text-blue-600 cursor-pointer">
-              <h3 className="text-2xl font-bold">{topic.name} &rarr;</h3>
+              <h3 className="text-2xl font-bold">{topic.name}</h3>
               <p className="mt-4 text-xl">{topic.description}</p>
             </div>
           </Link>
