@@ -16,10 +16,10 @@ interface ProjectsProps {
 export default function Projects({ projects, topic }: ProjectsProps) {
   return (
     <PanelWrapper title="Projects">
-      <>
-        <h3 className="text-1xl text-left pt-2">
-          Check out the following projects related to {topic}.
-        </h3>
+      <h3 className="text-1xl text-left pt-2">
+        Check out the following projects related to {topic}.
+      </h3>
+      <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
         {projects.map((project: Project) => (
           <a
             key={project.name}
@@ -32,7 +32,7 @@ export default function Projects({ projects, topic }: ProjectsProps) {
             <h3 className="text-1xl">Status: {project.status}</h3>
           </a>
         ))}
-      </>
+      </div>
     </PanelWrapper>
   );
 }

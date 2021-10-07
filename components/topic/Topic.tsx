@@ -7,15 +7,21 @@ interface TopicProps {
   topic: string;
   description: string;
   projects: Array<Project>;
+  links: Array<string>;
 }
 
-export default function Topic({ topic, description, projects }: TopicProps) {
+export default function Topic({
+  topic,
+  description,
+  projects,
+  links,
+}: TopicProps) {
   return (
     <>
       <Title title={topic} />
       <About description={description} />
       <Projects projects={projects} topic={topic} />
-      <FindOutMore />
+      <FindOutMore links={links} />
     </>
   );
 }
