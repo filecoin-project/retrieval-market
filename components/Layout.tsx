@@ -1,13 +1,11 @@
-import Link from "next/link";
-
 const Layout = ({ children }) => (
   <div className="flex flex-col items-center min-h-screen">
     <div className="flex w-full p-8 justify-between items-center bg-gradient-to-r from-pl-blue to-pl-green">
-      <Link href="/">
+      <a href="/">
         <h1 className="text-3xl text-white text-center cursor-pointer">
           Retrieval.Market
         </h1>
-      </Link>
+      </a>
       <a
         className="cursor-pointer"
         href="https://protocol.ai"
