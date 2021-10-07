@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
         rel="noopener noreferrer"
       >
         <img
-          src="/protocol-labs-logo.svg"
+          src="/protocol-labs-logo.svg/"
           alt="Protocol Labs Logo"
           className="h-16 ml-2"
         />
@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
       >
         Powered by{" "}
         <img
-          src="/protocol-labs-logo.svg"
+          src="/protocol-labs-logo.svg/"
           alt="Protocol Labs Logo"
           className="h-8 ml-1"
         />
