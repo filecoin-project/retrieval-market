@@ -14,8 +14,8 @@ export default function Home() {
       <UnderConstruction />
       <About />
       <Target />
-      <Topics />
       <Teams />
+      <Topics />
       <LearnMore />
       <Grants />
       <StayConnected />

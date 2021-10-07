@@ -24,7 +24,7 @@ export default function StayConnected() {
         <li className="text-1xl text-left pt-2">Find out about grants</li>
         <li className="text-1xl text-left pt-2">Apply for a grant</li>
         <li className="text-1xl text-left pt-2">
-          Give feedback on the website
+          Give feedback on this website
         </li>
       </ul>
       <h3 className="text-1xl text-left pt-2">
