@@ -13,8 +13,7 @@ export default function About() {
         Filecoin are set to revolutionise the way we store and retrieve data.
         The benefits are countless. As more Web3 companies rely on IPFS and
         Filecoin to store their data, the research into how that data is
-        retrieved from the networks must keep up. Check out all the teams and
-        workstreams involved in Retrieval Markets below.
+        retrieved from the networks must keep up.
       </h3>
       <h3 className="text-1xl text-left pt-2">
         Check out all the teams and workstreams involved in Retrieval Market

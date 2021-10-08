@@ -25,7 +25,7 @@ const teams: Array<Team> = [
   {
     name: "Ken Labs",
     description: "Cloud 2.0 of the Web 3 ecosystem",
-    website: "https://github.com/kenlabs",
+    website: "https://kencloud.com",
   },
   {
     name: "Textile",
