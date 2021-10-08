@@ -3,20 +3,21 @@ import { Project } from "../components/topic/Projects";
 
 const projects: Array<Project> = [
   {
-    name: "Pando",
-    team: "N/A",
-    description: "Ensuring Access to Notarized Metadata",
-    status: "Not Started",
+    name: "POP",
+    team: "Myel",
+    description: "A point-of-presence in the community powered CDN.",
+    status: "In Progress",
+    link: "https://github.com/myelnet/pop/projects/3",
   },
 ];
 
-const topic: string = "Reputation Systems";
+const topic: string = "Retrieval Providers";
 const description: string = "🚧 Under Construction 🚧";
 const links: Array<string> = [
   ...projects.map((project: Project) => project.link).filter((link) => !!link),
 ];
 
-export default function DataTransfer() {
+export default function RetrievalProviders() {
   return (
     <Topic
       topic={topic}

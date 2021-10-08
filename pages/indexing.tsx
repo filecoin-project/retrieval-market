@@ -10,9 +10,9 @@ const projects: Array<Project> = [
     link: "https://github.com/filecoin-project/storetheindex",
   },
   {
-    name: "Content Indexing",
+    name: "TimeRose",
     team: "Ken Labs",
-    description: "Indexing the content of files on IPFS",
+    description: "Indexing the Dataverse on Filecoin/IPFS",
     status: "In Progress",
     link: "https://github.com/kenlabs/TimeRose",
   },
@@ -24,8 +24,7 @@ const description: string =
   "Indexing on IPFS and FIlecoin can come in a few different flavours. Firstly, there is deal or miner indexing. This provides an index of all offers corresponding to a CID. Then there is location indexing which provides a list of nodes that are storing a CID and its data. Finally there is Content indexing, where one can find the actual content of a file stored on IPFS or Filecoin.";
 
 const links: Array<string> = [
-  "https://github.com/filecoin-project/storetheindex",
-  "https://github.com/kenlabs/TimeRose",
+  ...projects.map((project: Project) => project.link).filter((link) => !!link),
 ];
 
 export default function Indexing() {

@@ -43,6 +43,17 @@ const topics: Array<Topic> = [
       "How do we improve the transport layer protocols to move data around the networks more quickly?",
     pageName: "transport",
   },
+  {
+    name: "Browser Retrievals",
+    description:
+      "How can we best get data into the browser from IPFS and Filecoin?",
+    pageName: "browser-retrievals",
+  },
+  {
+    name: "Retrieval Providers",
+    description: "The nodes in the network that facilitate retrievals.",
+    pageName: "retrieval-providers",
+  },
 ];
 
 export default function Topics() {
@@ -52,12 +63,12 @@ export default function Topics() {
         To reach the above targets, there are many different topics of research
         and engineering that need our focus.
       </h3>
-      <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
+      <div className="flex flex-wrap items-center justify-left px-12 max-w-4xl sm:w-full">
         {topics.map((topic: Topic) => (
           <a key={topic.name} href={`${topic.pageName}`}>
-            <div className="p-6 mt-6 text-left border w-96 h-48 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue cursor-pointer">
+            <div className="p-6 m-2 text-left border w-96 h-40 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue cursor-pointer">
               <h3 className="text-2xl font-bold">{topic.name}</h3>
-              <p className="mt-4 text-xl">{topic.description}</p>
+              <p className="mt-4 text-1xl">{topic.description}</p>
             </div>
           </a>
         ))}

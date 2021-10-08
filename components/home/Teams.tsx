@@ -55,12 +55,14 @@ export default function Teams() {
       <h3 className="text-1xl text-left pt-2">
         Many teams are already working on Retrieval Markets.
       </h3>
-      <div className="flex flex-wrap items-center justify-around max-w-4xl sm:w-full">
+      <div className="flex flex-wrap items-center justify-left px-12 max-w-4xl sm:w-full">
         {teams.map((team: Team) => (
           <a
             key={team.name}
             href={team.website || ""}
-            className="p-6 mt-6 text-left border w-96 h-32 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-6 m-2 text-left border w-96 h-32 rounded-xl hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-pl-green hover:to-pl-blue cursor-pointer"
           >
             <h3 className="text-2xl font-bold">{team.name} &rarr;</h3>
             <h3 className="text-1xl">{team.description}</h3>
