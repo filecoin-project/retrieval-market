@@ -16,8 +16,7 @@ export default function LearnMore() {
             Youtube Playlist
           </a>{" "}
           from the Retrieval Market Mini Summit in April 2021. The Keynote from
-          Protocol Labs' CEO Juan Benet is embedded below and gives a great
-          introduction.
+          Protocol Labs' CEO Juan Benet is well worth watching!
         </li>
         <li className="text-1xl text-left pt-2">
           To see how things are progressing, check out the{" "}
@@ -31,6 +30,19 @@ export default function LearnMore() {
             Youtube Playlist
           </a>{" "}
           from the Retrieval Market Demo Days that happen every two weeks.
+        </li>
+        <li className="text-1xl text-left pt-2">
+          For those looking to get more into the technical details, check out
+          the{" "}
+          <a
+            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+            href="https://filecoin-retrieval-spec.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Filecoin Retrieval Market Spec
+          </a>
+          .
         </li>
       </ul>
     </PanelWrapper>

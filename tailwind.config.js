@@ -8,8 +8,9 @@ module.exports = {
         "protocol-labs-logo": "url('/protocol-labs-logo.svg')",
       },
       colors: {
-        "pl-blue": "#1a74fc",
+        "pl-blue": "#008cff",
         "pl-green": "#4ef286",
+        "pl-dark-blue": "#0365c0",
       },
     },
   },
