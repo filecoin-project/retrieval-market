@@ -73,7 +73,8 @@ export default function Projects() {
   return (
     <PanelWrapper title="Projects">
       <h3 className="text-1xl text-left pt-2">
-        Check out the following projects related to Retrieval Markets.
+        Check out the following projects related to Retrieval Markets. We will
+        be adding more shortly.
       </h3>
       <div className="flex flex-wrap items-center justify-left sm:w-full">
         {projects.map((project: Project) => (
