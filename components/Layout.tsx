@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by{" "}
+        Made with ❤️ by{" "}
         <img
           src="/protocol-labs-logo.svg/"
           alt="Protocol Labs Logo"
