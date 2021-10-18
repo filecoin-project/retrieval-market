@@ -12,11 +12,11 @@ export default function Events() {
           rel="noopener noreferrer"
         >
           Retrieval Market Builders Demo Day Meeting
-        </a>{" "}
-        which happens every other week on a Wednesday.
+        </a>
+        , which happens every other week on a Wednesday.
       </h3>
       <h3 className="text-1xl text-left pt-2">
-        Aprt from that, there is currently nothing more in the diary right now,
+        Apart from that, there is currently nothing more in the diary right now,
         but we are hoping to run another summit before the end of the year. Keep
         checking this panel for updates!
       </h3>
