@@ -47,6 +47,12 @@ const teams: Array<Team> = [
     description: "Edge Storage and Computing on Web 3.0",
     website: "https://filswan.com",
   },
+  {
+    name: "Magmo",
+    description:
+      "State Channels - a scaling solution for the Ethereum blockchain",
+    website: "https://magmo.com",
+  },
 ];
 
 export default function Teams() {

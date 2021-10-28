@@ -35,14 +35,6 @@ const projects: Array<Project> = [
     topics: ["Indexing"],
   },
   {
-    name: "TimeRose",
-    team: "Ken Labs",
-    description: "Indexing the Dataverse on Filecoin/IPFS.",
-    status: "In Progress",
-    link: "https://github.com/kenlabs/TimeRose",
-    topics: ["Indexing"],
-  },
-  {
     name: "Pando",
     team: "RFP",
     description:
@@ -65,6 +57,22 @@ const projects: Array<Project> = [
       "This client will speak to the indexer node to locate a CID and then retrieve that content.",
     status: "In Progress",
     link: "https://github.com/ipfs-shipyard/w3rc",
+    topics: ["Retrieval Provider"],
+  },
+  {
+    name: "Scalable Multi-Hop Payments",
+    team: "Magmo",
+    description: "Virtual Funding Protocol and State Channel Manager in Golang",
+    status: "In Progress",
+    link: "https://github.com/filecoin-project/devgrants/issues/348",
+    topics: ["Payment Channels"],
+  },
+  {
+    name: "FCR",
+    team: "Zhenyang Shi",
+    description: "A Filecoin Retrieval Provider with a payment proxy network",
+    status: "In Progress",
+    link: "https://github.com/wcgcyx/fcr",
     topics: ["Retrieval Provider"],
   },
 ];
