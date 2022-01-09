@@ -22,7 +22,7 @@ const projects: Array<Project> = [
     description:
       "Pay for and retrieve content from a retrieval provider node to the browser.",
     status: "In Progress",
-    link: "https://github.com/myelnet/pop/projects/3",
+    link: "https://github.com/myelnet/myel.js",
     topics: ["Browser Retrievals", "Data Transport"],
   },
   {
@@ -36,10 +36,10 @@ const projects: Array<Project> = [
   },
   {
     name: "Pando",
-    team: "RFP",
+    team: "Ken Labs",
     description:
       "Ensuring Access to Notarized Metadata for nodes in the network.",
-    status: "Not Started",
+    status: "In Progress",
     topics: ["Reputation"],
   },
   {
@@ -47,8 +47,16 @@ const projects: Array<Project> = [
     team: "Myel",
     description: "A point-of-presence in the community-powered CDN.",
     status: "In Progress",
-    link: "https://github.com/myelnet/pop/projects/3",
+    link: "https://github.com/myelnet/pop",
     topics: ["Retrieval Provider", "Cryptoeconomics"],
+  },
+  {
+    name: "js-graphsync",
+    team: "Myel",
+    description: "A Javascript implementation of the Graphsync protocol.",
+    status: "In Progress",
+    link: "https://github.com/myelnet/myel.js/tree/tc/v0.3/packages",
+    topics: ["Data Transport"],
   },
   {
     name: "Web3 Retrieval Client",
@@ -62,15 +70,16 @@ const projects: Array<Project> = [
   {
     name: "Scalable Multi-Hop Payments",
     team: "Magmo",
-    description: "Virtual Funding Protocol and State Channel Manager in Golang",
+    description:
+      "Virtual Funding Protocol and State Channel Manager in Golang.",
     status: "In Progress",
     link: "https://github.com/filecoin-project/devgrants/issues/348",
     topics: ["Payment Channels"],
   },
   {
     name: "FCR",
-    team: "Zhenyang Shi",
-    description: "A Filecoin Retrieval Provider with a payment proxy network",
+    team: "WCGCYX",
+    description: "A Filecoin Retrieval Provider with a payment proxy network.",
     status: "In Progress",
     link: "https://github.com/wcgcyx/fcr",
     topics: ["Retrieval Provider"],

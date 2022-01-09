@@ -24,7 +24,7 @@ export default function About() {
       </h3>
       <div className="flex flex-wrap justify-center max-w-4xl mt-6 sm:w-full">
         <a
-          className="flex flex-wrap justify-center items-center border-2 border-pl-blue w-24 h-12 m-2 p-2 rounded-full text-pl-blue cursor-pointer"
+          className="flex flex-wrap justify-center items-center border-2 border-pl-light-blue w-24 h-12 m-2 p-2 rounded-full text-pl-light-blue cursor-pointer"
           href="https://filecoin-retrieval-spec.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,7 +32,7 @@ export default function About() {
           SPEC
         </a>
         <a
-          className="bg-gradient-to-r from-pl-dark-blue to-pl-blue w-12 h-12 p-2 rounded-full m-2 cursor-pointer"
+          className="bg-gradient-to-r from-pl-light-blue to-pl-blue w-12 h-12 p-2 rounded-full m-2 cursor-pointer"
           href="https://github.com/filecoin-project/retrieval-market/"
           target="_blank"
           rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export default function About() {
           <img src="/github-mark-light.png/" alt="Github Icon" />
         </a>
         <a
-          className="bg-gradient-to-r from-pl-dark-blue to-pl-blue w-12 h-12 rounded-full m-2 cursor-pointer"
+          className="bg-gradient-to-r from-pl-light-blue to-pl-blue w-12 h-12 rounded-full m-2 cursor-pointer"
           href="https://filecoinproject.slack.com"
           target="_blank"
           rel="noopener noreferrer"

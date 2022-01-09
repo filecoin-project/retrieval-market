@@ -1,11 +1,19 @@
 const Layout = ({ children }) => (
   <div className="flex flex-col items-center min-h-screen">
-    <div className="flex w-full p-8 justify-between items-center bg-gradient-to-r from-pl-blue to-pl-green">
-      <a href="/">
-        <h1 className="text-3xl text-white text-center cursor-pointer">
-          Retrieval.Market
+    <div className="flex w-full p-8 justify-between items-center bg-gradient-to-r from-pl-blue to-pl-light-blue">
+      <div className="flex flex-row items-center">
+        <a href="/">
+          <img
+            src="/retrieval-market-logo/png/RetrievalMarket-logo-white-outline.png/"
+            alt="Protocol Labs Logo"
+            className="h-16 ml-2"
+          />
+        </a>
+        <h1 className="text-2xl px-2 text-white text-center cursor-pointer">
+          Filecoin Retrieval Market
         </h1>
-      </a>
+      </div>
+
       <a
         className="cursor-pointer"
         href="https://protocol.ai"
