@@ -53,6 +53,11 @@ const teams: Array<Team> = [
       "State Channels - a scaling solution for the Ethereum blockchain",
     website: "https://magmo.com",
   },
+  {
+    name: "New Web Group",
+    description: "Building the Pillars of Web 3.0",
+    website: "https://newwebgroup.com",
+  },
 ];
 
 export default function Teams() {

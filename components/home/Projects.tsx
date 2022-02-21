@@ -84,6 +84,30 @@ const projects: Array<Project> = [
     link: "https://github.com/wcgcyx/fcr",
     topics: ["Retrieval Provider"],
   },
+  {
+    name: "Content Indexing",
+    team: "ChainSafe",
+    description: "Content Indexing the IPLD web of Filecoin and IPFS",
+    status: "In Progress",
+    link: "https://chainsafe.io",
+    topics: ["Indexing"],
+  },
+  {
+    name: "WebRTC Direct",
+    team: "ChainSafe",
+    description: "Research into WebRTC without a signalling server.",
+    status: "Not Started",
+    link: "https://chainsafe.io",
+    topics: ["Data Transport"],
+  },
+  {
+    name: "Titan Ultra Networks",
+    team: "New Web Group",
+    description: "A Retrieval Network for Filecoin.",
+    status: "In Progress",
+    link: "https://newwebgroup.com/",
+    topics: ["Retrieval Provider", "Cryptoeconomics"],
+  },
 ];
 
 export default function Projects() {
