@@ -13,7 +13,7 @@ Built with [nextjs], styled with [tailwind]
 
 ## Inspiration
 
-- http://www.arewedistributedyet.org
+- https://arewedistributedyet.com
 - https://identity.foundation
 
 ## License
