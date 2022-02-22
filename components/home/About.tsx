@@ -41,7 +41,7 @@ export default function About() {
         </a>
         <a
           className="bg-gradient-to-r from-pl-light-blue to-pl-blue w-12 h-12 rounded-full m-2 cursor-pointer"
-          href="https://filecoinproject.slack.com"
+          href="https://filecoin.io/slack"
           target="_blank"
           rel="noopener noreferrer"
         >
